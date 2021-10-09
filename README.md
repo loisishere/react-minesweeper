@@ -1,6 +1,14 @@
-# Getting Started with Create React App
+# Minesweeper
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Classic desktop game
+
+# controls
+Make sure to click in the browser
+* Hover over a cell and click "space" to add or a remove a flag
+* Click a square to remove pieces
+* The smiling face resets the game
+* The number counts how many flags have been placed
+* clear the board to win
 
 ## Available Scripts
 
