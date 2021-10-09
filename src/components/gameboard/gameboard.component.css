@@ -1,0 +1,40 @@
+.gameboard.gameOver > div:not(.gameOverContainer){
+    pointer-events: none; 
+
+}
+.gameboard{
+    text-align: center;
+}
+div.gameOverContainer{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    font-weight: bold;
+    font-size: 50px;
+    color: red;
+    background: rgba(255,255,255,.4);
+    padding-top: 20%;
+}
+div.gameOverContainer > button {
+     width: 80px;
+}
+div.gameboardDetails{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 35px;
+}
+
+div.gameboardDetails > *{
+    color: black;
+    background: whitesmoke;
+    border: gray 1px solid;
+    height: 30px;
+    width: 35px;
+    font-size: 20px;
+}

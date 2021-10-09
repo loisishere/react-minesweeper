@@ -1,0 +1,25 @@
+.gamecell{
+  background-color: lightgray;
+  border-top: 1px white solid;
+  border-left: 1px white solid;
+  border-bottom: 1px darkgray solid;
+  border-right: 1px darkgray solid;
+  width: 20px;
+  height: 20px;
+  font-weight: bold;
+  position: relative;
+}
+.gamecell > svg{
+  position: absolute;
+  top: 2px;
+  left: 1px;
+  color: brown;
+}
+.gamecell:focus{
+outline: none;
+border-top: 1px gray solid;
+border-left: 1px gray solid;
+}
+.revealed{
+  border: darkgray 1px solid;
+}
